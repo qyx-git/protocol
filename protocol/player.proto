@@ -1,0 +1,16 @@
+option java_package = "com.proto";
+option java_outer_classname = "PlayerModule";
+message PBplayer{
+	required int64 playerId = 1;
+	required int32 age = 2;
+
+	required string name = 3;
+	required int32 skills = 4;
+}
+
+message PBResource{
+	required int64 gold = 1;
+
+	required int64 energy = 2;
+
+}
